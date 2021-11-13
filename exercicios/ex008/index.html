@@ -1,0 +1,38 @@
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <title>Formatação de testo</title>
+    <style>
+        mark{background-color: chartreuse;}
+    </style>
+</head>
+<body>
+    <h1>Principais formatações</h1>
+    <h2>Negrito em destaque</h2>
+    <p>Nesta frase, temos um <b>termo em negrito</b> usando a tag B (Não semântica)</p>
+    <p>Nesta frase, temos um <strong>termo em destaque </strong>usando a tag STRONG (semântica)</p><!-- Forma de destaque -->
+    <h2>Itálico / Ênfase</h2>
+    <p>Nesta frase, temos um <i>termo em itálico</i> usando a tag I (não semântica)</p> <!-- OBS.: Recomenda-se não ultizar mais B ou I (pois não são semântica). -->
+    <p>Nesta frase, temos um <em>termo em ênfase</em> usando EM (semântica)</p><!-- digite todo o testo sem tag, depois vim envelopando usando o comando CTRL + SHIFT + P na aba de pesquisa digite abb e mandei verificar-->
+    <h2>Texto marcado</h2>
+    <p>Podemos criar também <MARK>um texto marcado</MARK> usando a tag MARK</p> <!-- Aqui a tag mark herdou referncias da tag sitada lá no iníco -->
+    <P>E no outro parágrafo, temos <mark style="background-color: aquamarine;">outro texto marcado</mark> no final</P><!-- neste parágrafo apliquei CSS tag style para efetuar um comando exclusivo para esta frase -->
+    <h2>Texto grande e pequeno</h2>
+    <p>Estamos criando um <big>texto grande</big>  <small>e um pequeno</small> nesse parágrafo.</p><!-- Lembrando que bid (não semântica, deve evitar de se usar) -->
+    <h2>Texto deletado</h2>
+    <p>Podemos marca <del>um texto como excluido</del> para indicar que ele não deve ser lido, mas como considerado</p>
+    <h2>Texto inserido</h2>
+    <p>Podemos marca um <ins>texto como inserido</ins> para dar uma ênfase e indicar que ele foi adcionado depois.</p>
+    <p>Existe também <u>subliando</u> com a tag U (não semântica)</p>
+    <h2>Texto sobrescrito</h2>
+    <p>Para inderir coisas do tipo x<sup>20</sup> + 3</p>
+    <h2>Texto subscrito</h2>
+    <p>Para inserir coisas do tipo H<sub>2</sub>O</p>
+</body>
+</html>
+        

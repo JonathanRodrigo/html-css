@@ -1,0 +1,25 @@
+@charset "UTF-8";
+
+body {
+  background-image: linear-gradient(to right, #0e6d33, #378132, #599233, #1B7432); 
+}
+
+h1{
+    color: #073318;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h2{
+    color: #073318;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+main {
+    background-color: #ffffff;
+    font-family: 'Courier New', Courier, monospace;
+    border-radius: 10px;
+    padding: 10px;
+    box-shadow: 5px 5px 3px #052b14f3;
+    margin: auto;
+    font-size: 1em;
+}

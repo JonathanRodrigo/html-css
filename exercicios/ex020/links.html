@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Links</title>
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        a {
+            color: red;
+            text-decoration-color: nome;
+            font-weight: bold;
+        }
+
+        a:hover {
+            color: black;
+            text-decoration: underline;
+        }
+
+        a:active {
+            color: yellow;
+        }
+
+        .especial {
+            background-color: rgb(240, 121, 121);
+        }
+
+       .especial::before {
+           content: '®';
+       } 
+
+       .especial::after {
+           content: '¿';
+       }
+    </style>
+
+</head>
+<body>
+    <h1>Personalizando link</h1>
+    <ul>
+        <li><a href="https://www.sn2.com.br" target="_blank">Site SN2</a></li>
+        <li><a href="https://www.g1.com.br" target="_blank" class="especial">Rede Globo</a></li>
+    </ul>
+    
+</body>
+</html>

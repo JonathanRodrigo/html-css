@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Midias m HTML5</title>
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+</head>
+<body>
+    <h1>Imagem Dinamica</h1>
+    <p> Tente abrir este site em vários dipositivos diferentes ou simplesmente aumente de dimunua o tamanho do seu navegador.</p>
+
+    <picture>
+        <source media="(max-width:750px)" srcset="imagens/foto-p.png" type="image/png">  <!-- 3ª passo -->
+        <source media="(max-width:1050px)" srcset="imagens/foto-m.png" type="image/png">  <!-- 2ª passo -->
+        <img src="imagens/foto-g.png" alt="Imagem flexivel">  <!-- 1ª Passo chamar imagem principal começando pela maior-->
+    </picture>
+    <h1>Reproduzindo Áudio</h1>
+    <p>Vamos aprender a reproduzir o áudio em HTML5.</p>
+    <audio preload="metadata" controls autoplay loop>  <!-- preload pode ser auto "Inicia de forma automatica junto da pagina", metadata "Carrega as informçães tipo, tempo e diretório ", none "Não carrega nada" -->
+        <source src="midia/guanacast-33.mp3" type="audio/mpeg">
+        <source src="midia/guanacast-33.ogg" type="audio/ogg">
+        <source src="midia/guanacast-33.wav" type="audio/wav">
+        <p>Infelizmente seu navegaor não consegui reproduzir áudio <a href="midia/guanacast-33.mp3" download="guanacast-33.mp3" type="audio/mpg">cliqui aqui para baixar o aquivo MP3</a></p>  <!-- os 3 source acima estão colocando as possivis forma de abrir o gerenciador de audio, caso não abre em um formato e pula para o outro e segui sucessivamente até terminar o ciclo, não havendo compatibilidade do source e ele pula pro testo onde vai sugerir um link para download --> 
+    </audio>   
+</body>
+</html>
